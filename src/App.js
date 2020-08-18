@@ -27,11 +27,11 @@ class App extends Component {
 		
 		return(
 			<div className="App">
-				<h1 className="title pt-5">COVID 19</h1>
+				<h1 className="title pt-5">COVID 19 DATA</h1>
 				<img className="covidlogo" src={logo} alt="covidlogo"/>
 				<Card
 				data = {this.state.data}
-				/>	
+				/>
 			</div>
 		)
 	}
